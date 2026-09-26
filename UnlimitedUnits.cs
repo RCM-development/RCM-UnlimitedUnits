@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BepInEx;
 using HarmonyLib;
-using TestMod;
+using RCM_GUI;
 namespace RCM_UnlimitedUnits{
     #if RCM_STANDALONE
     [BepInDependency(RCMManager.IDENTIFIER, BepInDependency.DependencyFlags.HardDependency)]
