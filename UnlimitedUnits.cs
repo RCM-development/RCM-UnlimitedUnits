@@ -28,6 +28,7 @@ namespace RCM_UnlimitedUnits{
             RCMManager.ConnectMod("Unlimited Units").ContinueWith(t => 
             {
                 mod = t.Result;
+                mod.CreateLabelField("patch applied");
 
             }, TaskScheduler.FromCurrentSynchronizationContext());
             #endif
